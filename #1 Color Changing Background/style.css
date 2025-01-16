@@ -2,5 +2,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     /* background-image: linear-gradient(to right, #765275, #c1b4ba); */
 } 
