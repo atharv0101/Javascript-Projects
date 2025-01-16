@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  background-color: #081b31;
+  color: #fff;
+  padding: 0px;
+  text-align: center;
+}
+h1{
+background-color: rgb(182, 85, 101);
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+  width: auto;
+  text-align: center;
+}
+
+.choices{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 3rem;
+}
+
+.choice{
+  height: 165px;
+  width: 165px;  
+}
+
+img{
+  height: 165px;
+  width: 165px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+img:hover{
+  border: 3px solid white;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.score{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  gap: 3rem;
+}
+
+#playerscore, #compscore {
+  font-size: 4rem;
+}
+.message-container{
+  margin-top: 4rem;
+}
+#message{
+  background-color: rgb(182, 85, 101); 
+  width: auto;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.highlight-win {
+  transform: (1.7);
+  animation: highlightAnim 0.9s ease-in-out;
+}
+
+.highlight-lose {
+  transform: (1.7);
+  animation: highlightAnim 0.9s ease-in-out;
+}
+@keyframes highlightAnim {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+

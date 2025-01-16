@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+
+    
+}
+
+#title{
+    height: 2rem;
+    width: auto;
+    background-color: darkblue;
+    color: #713838;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#add_task{
+    background-color: antiquewhite;
+    padding: 0.5rem;
+    margin: 5px;
+}
+
+#add_task:hover{
+    cursor: pointer;
+    background-color: rgb(164, 164, 224); 
+
+}
+
+#task_text{
+    padding: 0.5rem;
+    width: 30%;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    
+}
+
+
+.todo_input{
+
+    padding: 0.5rem;
+    display: inline;
+    background-color: #713838;
+
+
+
+}
