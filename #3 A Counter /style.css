@@ -1,0 +1,33 @@
+body{
+    background-color: blanchedalmond !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+
+.counter-container{
+    height: 100vh !important;
+    border: solid 2px black !important;
+    display:flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.container2{
+    border: 2px solid black !important;
+    width: 50vh !important;
+    height: 50vh !important;
+    background-color: rgb(187, 148, 89) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+h1{
+    font-size: 50px !important;
+    color: rgb(7, 7, 22) !important;
+}
+
+#counter{
+    text-align: center;
+}
