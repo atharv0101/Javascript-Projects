@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-fade"><img src="1.jpg" alt="Image 1" width="100%" loading="lazy"></div>
+        <div class="image-fade"><img src="2.jpg" alt="Image 2" width="100%" loading="lazy"></div>
+        <div class="image-fade"><img src="3.jpg" alt="Image 3" width="100%" loading="lazy"></div>
+        <div class="image-fade"><img src="4.jpg" alt="Image 4" width="100%" loading="lazy"></div>
+        <div class="image-fade"><img src="5.jpg" alt="Image 5" width="100%" loading="lazy"></div>
+        <div class="image-fade"><img src="6.jpg" alt="Image 6" width="100%" loading="lazy"></div>
+        <div class="image-fade"><img src="7.jpg" alt="Image 7" width="100%" loading="lazy"></div>
+        <div class="image-fade"><img src="8.jpg" alt="Image 8" width="100%" loading="lazy"></div>
+        <div class="image-fade"><img src="9.jpg" alt="Image 9" width="100%" loading="lazy"></div>
+        <div class="image-fade"><img src="10.jpg" alt="Image 10" width="100%" loading="lazy"></div>
+        <div class="image-fade"><img src="11.jpg" alt="Image 11" width="100%" loading="lazy"></div>
+
+        <i onclick="showimages(-1)" id="prev" class="fa-solid fa-caret-left" aria-label="Previous Slide"></i>
+        <i onclick="showimages(1)" id="next" class="fa-solid fa-caret-right" aria-label="Next Slide"></i>
+
+        <!-- Dots -->
+        <div class="dots">
+            <span class ="dot"></span>
+            <span class ="dot"></span>
+            <span class ="dot"></span>
+            <span class ="dot"></span>
+            <span class ="dot"></span>
+            <span class ="dot"></span>
+            <span class ="dot"></span>
+            <span class ="dot"></span>
+            <span class ="dot"></span>
+            <span class ="dot"></span>
+            <span class ="dot"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
