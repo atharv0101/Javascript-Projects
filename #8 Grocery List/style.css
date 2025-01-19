@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    height: 20vh;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4d4d4;
+}
+
+.grocerylist{
+
+    margin: auto;
+    min-height: 100vh;
+    background-color: beige;
+    box-shadow: 10px 10px 24px 0 rgb(0, 0, 0, 0.5);
+
+}
+
+.grocerylist h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(130, 17, 17);
+    padding: 1rem;
+}
+
+.grocerylist i{
+    font-size: 2rem;
+    color: rgb(130, 17, 17);
+}
+
+.grocerylist input[type="text"]{
+    font-family: inherit;
+    padding: 0.5rem;
+    width: 70%;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 2px solid rgb(130, 17, 17);
+    margin: 1rem;
+}
+
+.grocerylist h2{
+    font-size: 1.7rem;
+    padding: 1rem;
+    margin-left: 5 0px;
+    margin-right: 10px;
+}
+
+@media(max-width: 480px){
+    .grocerylist h1{
+        font-size: 2rem;
+    }
+    .grocerylist input[type="text"]{
+        font-size: 1rem;
+    }
+    .grocerylist i{
+        font-size: 1.8rem;
+    }
+    .grocerylist h2{
+        font-size: 1.5rem;
+    }
+}
