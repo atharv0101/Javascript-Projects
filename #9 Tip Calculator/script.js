@@ -2,7 +2,10 @@ const calculateTip = () => {
     let billamt = document.getElementById("billamt").value;
     let serviceQual = document.getElementById("service").value;
     let guests = document.getElementById("guestamt").value;
-
+    if(billamt === 0 || billamt < 0 || guests === "" || guests == 0 || guests < 1) {
+        alert("Please enter values");
+        return;
+    }
 
     let tip = Math.floor(((billamt) * (serviceQual)) / (guests));
     console.log(tip);
@@ -13,7 +16,7 @@ const calculateTip = () => {
     console.log("tip is calculated");
 
 
-    showCustomAlert(`Tip amount per guest: $${tip}`);
+    showCustomAlert(`Tip amount per guest: Rupees${tip}`);
 };
 
 const showCustomAlert = (message) => {

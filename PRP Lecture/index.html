@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Hello World </h1>
+</body>
+<script>
+    const demo = () =>{
+    const myPromise = new Promise((resolve,reject) => {
+        setTimeout(() =>{
+            reject(' Hello World');
+        }, 3000);
+    });
+
+    console.log(myPromise)
+    myPromise
+    .then((data) => console.log("resolved"+ data))
+    .catch((error) => console.log("rejected"+ error));
+    }  
+    demo();
+
+    let arr1 = [1,2,3,4,5];
+    let arr2 = arr1.map((x) => {
+    if(x * 2>5){{
+        return x;
+        }} else{
+            return false;
+        }
+    });
+    console.log(arr2);
+
+</script>
+</html>
